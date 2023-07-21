@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/pragmatyc-react/static/css/main.3dbc24af.css",
+    "main.js": "/pragmatyc-react/static/js/main.323d5ed0.js",
+    "static/media/home-video.mp4": "/pragmatyc-react/static/media/home-video.aabef7e5049f7ed56df5.mp4",
+    "static/media/ecosystem.jpg": "/pragmatyc-react/static/media/ecosystem.b7351672e9e77004831f.jpg",
+    "static/media/blog2.png": "/pragmatyc-react/static/media/blog2.b4ec6abd988eb20eca97.png",
+    "static/media/blog3.png": "/pragmatyc-react/static/media/blog3.0c20b7065530acd9708c.png",
+    "static/media/Helped-HR-consulting.jpg": "/pragmatyc-react/static/media/Helped-HR-consulting.26f5e9ba652864eed7d0.jpg",
+    "static/media/blog1.jpg": "/pragmatyc-react/static/media/blog1.1f8729b5f36bbc1243b3.jpg",
+    "static/media/sachin.png": "/pragmatyc-react/static/media/sachin.06171a0ab0286e480f62.png",
+    "static/media/Parenting-of-product.jpg": "/pragmatyc-react/static/media/Parenting-of-product.9615689cd31c3708d3f3.jpg",
+    "static/media/dhiraj.png": "/pragmatyc-react/static/media/dhiraj.631b14f34ac7bb8adae9.png",
+    "static/media/childcare.jpg": "/pragmatyc-react/static/media/childcare.3b96422eb181234be029.jpg",
+    "static/media/shlomo.png": "/pragmatyc-react/static/media/shlomo.435e5eb6bbf934862c89.png",
+    "static/media/poster.jpg": "/pragmatyc-react/static/media/poster.a936076f0132781de9cb.jpg",
+    "static/media/icon-150x150.png": "/pragmatyc-react/static/media/icon-150x150.c7ca2962bb053550c628.png",
+    "static/media/icon2.svg": "/pragmatyc-react/static/media/icon2.906d1dcb9bb542f7d85b0abb298864b9.svg",
+    "static/media/slick.svg": "/pragmatyc-react/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/pragmatyc-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/pragmatyc-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/pragmatyc-react/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/pragmatyc-react/index.html",
+    "main.3dbc24af.css.map": "/pragmatyc-react/static/css/main.3dbc24af.css.map",
+    "main.323d5ed0.js.map": "/pragmatyc-react/static/js/main.323d5ed0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dbc24af.css",
+    "static/js/main.323d5ed0.js"
+  ]
+}
