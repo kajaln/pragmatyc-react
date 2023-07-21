@@ -1,0 +1,51 @@
+@import '../../styles/style.scss';
+
+
+// .slick-list{}
+.case-studies{
+    background: #f6f6f6;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    .slick-prev:before, .slick-next:before{
+        color: #555;
+        font-size: 40px;
+    }
+    .slick-next {
+        right: -8px;
+    }
+}
+.case-study-slider{margin: 0 -15px;}
+.slide{
+    padding: $padding-small;
+    padding-top: 0;
+   
+    .case-study-item {
+        // padding: $padding-small;
+        text-align: left;
+        border: 1px solid #eee;
+        height:500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        border-radius: 8px;
+        background: #e288f1;
+        position: relative;
+        overflow: hidden;
+        
+        img {
+            max-width: 100%;
+            width: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+        }
+        .case-study-brief{background:rgba(255, 255, 255, .8);padding: $padding-small;
+            position: relative;z-index: 99;
+            width: 90%;
+            margin: 0 auto 15px;
+            border-radius: 10px;
+            p{margin-bottom: 0;border-radius: 8px;}
+        }
+    }
+}

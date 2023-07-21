@@ -1,0 +1,17 @@
+@import '../../styles/style.scss';
+
+.footer{
+    background:$contrast-color;
+    padding-top: $padding-large;
+    padding-bottom: $padding-medium;
+    text-align: left;
+    h5{color: $secondary-color;margin-bottom: 20px;font-size: $font-large;}
+    a{color: #fff;
+    &:hover{
+        color: $secondary-color;
+    }
+   &.logo-icon{
+        img{height: 90px;}
+    }
+}
+}

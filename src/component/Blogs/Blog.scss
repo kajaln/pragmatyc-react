@@ -1,0 +1,14 @@
+@import '../../styles/style.scss';
+
+.blog{background: #eee;
+    padding-bottom: 40px;
+    .card-body{
+        padding: 0 !important;
+    background: #fff;
+    }
+    .card-content{
+        text-align: left;
+        padding: $padding-small;
+        padding-top: 0;
+    }
+}

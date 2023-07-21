@@ -1,0 +1,12 @@
+@import '../../../styles/style.scss';
+
+.client-testimonials{
+    padding: 50px 0;
+   
+.testimonials-item-inner{ display: flex;text-align: left;padding: 20px;align-items: stretch}
+.client-image{width: 150px;flex-grow: 0;
+    flex-shrink: 0;margin-right: 20px;}
+.client-image img{border-radius: 50%;width: 150px;height: 150px;border: 2px solid $primary-color;}
+h5{color:$primary-color ;}
+}
+

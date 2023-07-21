@@ -1,0 +1,22 @@
+@import '../../styles/style.scss';
+
+.heading{padding: 40px 0 0;}
+h4{
+    color: $primary-color;
+    font-size: 25px
+}
+
+h2{
+    color: $contrast-color;
+    font-family: $font-face-heading;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.seperator span{
+    display: inline-block;
+    height: 5px;width: 150px;
+    background-color: $primary-color;
+}
+
+.description-text{width: 70%;margin:15px auto 30px auto}
