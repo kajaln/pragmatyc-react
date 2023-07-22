@@ -9,20 +9,19 @@ import Footer from "./layout/Footer/Footer";
 
 
 function App() {
-  return (
+  return (<>
     <Router>
     <div className="App">
         <NavigationBar />
-        <Routes>
-				  <Route path="/" exact element={<Home />} /> 
+        {/* <Routes> */}
+        <Home/>
+				  {/* <Route path="/" exact element={<Home />} />  */}
           {/* <Route path="/services" exact element={} />  */}
-				</Routes>
-        <Footer />
-       
-			
-		
+				{/* </Routes> */}
+        <Footer />		
     </div>
     </Router>
+    </>
   );
 }
 
