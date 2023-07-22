@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pragmatyc-react/static/css/main.3dbc24af.css",
-    "main.js": "/pragmatyc-react/static/js/main.4c2b5ce9.js",
+    "main.js": "/pragmatyc-react/static/js/main.d6037506.js",
     "static/media/home-video.mp4": "/pragmatyc-react/static/media/home-video.aabef7e5049f7ed56df5.mp4",
     "static/media/ecosystem.jpg": "/pragmatyc-react/static/media/ecosystem.b7351672e9e77004831f.jpg",
     "static/media/blog2.png": "/pragmatyc-react/static/media/blog2.b4ec6abd988eb20eca97.png",
@@ -22,10 +22,10 @@
     "static/media/slick.woff": "/pragmatyc-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/pragmatyc-react/index.html",
     "main.3dbc24af.css.map": "/pragmatyc-react/static/css/main.3dbc24af.css.map",
-    "main.4c2b5ce9.js.map": "/pragmatyc-react/static/js/main.4c2b5ce9.js.map"
+    "main.d6037506.js.map": "/pragmatyc-react/static/js/main.d6037506.js.map"
   },
   "entrypoints": [
     "static/css/main.3dbc24af.css",
-    "static/js/main.4c2b5ce9.js"
+    "static/js/main.d6037506.js"
   ]
 }
