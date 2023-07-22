@@ -15,7 +15,7 @@ function App() {
         <NavigationBar />
         <Routes>
 				  <Route path="/" exact element={<Home />} /> 
-          <Route path="/services" exact element={<Services />} /> 
+          {/* <Route path="/services" exact element={} />  */}
 				</Routes>
         <Footer />
        
