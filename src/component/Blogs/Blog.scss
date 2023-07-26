@@ -1,14 +1,15 @@
 @import '../../styles/style.scss';
 
-.blog{background: #eee;
+.blog{
     padding-bottom: 40px;
     .card-body{
         padding: 0 !important;
-    background: #fff;
+        background: #efefef;
     }
     .card-content{
         text-align: left;
         padding: $padding-small;
         padding-top: 0;
+        
     }
 }

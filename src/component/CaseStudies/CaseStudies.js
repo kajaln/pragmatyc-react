@@ -85,7 +85,7 @@ function CaseStudies() {
           <div className='case-study-slider'>
             <Slider {...settings}>
               {CaseStudyItems.map((item)=> {
-                return<div className='slide' >
+                return<div className='slide' key={item.id} >
                   <div className='case-study-item' >
                     <img src={item.caseStudyImage} />
                     <div className='case-study-brief'>

@@ -3,9 +3,9 @@ import "./Services.scss";
 import Heading from '../../layout/Heading/Heading';
 import { Card, Col, Container, Figure, Row } from 'react-bootstrap';
 import "../../img/ImagePath.js";
-import { ReactComponent as ProductConsultingImg } from '../../img/svg/icon2.svg';
-import { ReactComponent as ProductDevelopmentImg } from '../../img/svg/icon2.svg';
-import { ReactComponent as ProductModernizationImg } from '../../img/svg/icon2.svg';
+import { ReactComponent as ProductConsultingImg } from '../../img/svg/consulting.svg';
+import { ReactComponent as ProductDevelopmentImg } from '../../img/svg/development.svg';
+import { ReactComponent as ProductModernizationImg } from '../../img/svg/modernization.svg';
 import imagePaths from '../../img/ImagePath.js';
 
 function Services(props) {

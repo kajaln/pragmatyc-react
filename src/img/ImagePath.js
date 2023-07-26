@@ -1,5 +1,4 @@
 const imagePaths = {
-    productDevelopment: require('../img/svg/icon2.svg'),
     logo: require('../img/pragmatyc.png'),
     caseStudy1: require('../img/childcare.jpg'),
     caseStudy2: require('../img/Helped-HR-consulting.jpg'),
@@ -12,8 +11,19 @@ const imagePaths = {
     blogImage2: require('../img/blog2.png'),
     blogImage3: require('../img/blog3.png'),
     logoIcon: require('../img/icon-150x150.png'),
-   // anotherImage: require('../assets/anotherImage.jpg'),
-    // Add more image paths as needed
+    
+   //Client Logos,
+    ezi2care: require('../img/client-logo/ezi2care.png'),
+    myla: require('../img/client-logo/myla.png'),
+    veristride: require('../img/client-logo/veristride.png'),
+    sujok: require('../img/client-logo/sujok.png'),
+    gpit: require('../img/client-logo/gpit.png'),
+    gptw: require('../img/client-logo/gptw.png'),
+    silvertouch: require('../img/client-logo/silvertouch.png'),
+    clideg: require('../img/client-logo/clideg.png'),
+
+    ecosystem: require('../img/ecosystem.jpg'),
+
   };
   
   export default imagePaths;

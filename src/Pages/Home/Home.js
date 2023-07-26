@@ -5,6 +5,8 @@ import ClientTestimonials from '../../component/Testimonials/ClientTestimonials/
 import CaseStudies from '../../component/CaseStudies/CaseStudies';
 import EcoSystem from '../../component/EcoSystem/EcoSystem';
 import Blog from '../../component/Blogs/Blog';
+import ClientLogo from '../../component/ClientLogos/ClientLogo';
+import CollaborateFooter from '../../component/Collaborate/CollaborateFooter';
 
 
 function Home(props) {
@@ -14,9 +16,12 @@ function Home(props) {
     <HomeIntro />
     <Services />
     <CaseStudies />
-    {/* <EcoSystem /> */}
+    
     <ClientTestimonials />
+    <EcoSystem />
+    <ClientLogo />
     <Blog />
+    <CollaborateFooter />
     </>
   )
 }

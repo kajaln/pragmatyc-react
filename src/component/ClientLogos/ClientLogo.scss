@@ -1,0 +1,13 @@
+@import '../../styles/style.scss';
+
+.client-logo-slider{
+    background-color: #efefef;
+    padding: 20px 0;
+    img {
+        height: 75px;
+        filter: grayscale(100%);
+        &:hover{
+            filter: grayscale(0); 
+        }
+      }
+}

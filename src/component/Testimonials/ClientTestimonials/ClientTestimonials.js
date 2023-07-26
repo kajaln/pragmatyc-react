@@ -72,7 +72,7 @@ function ClientTestimonials() {
         <div className='container'>
             <Slider {...settings}>
               {clientTestimonialItems.map((item) => {
-                return<div className='clientTestimonialItem'>
+                return<div className='clientTestimonialItem' key={item.id}>
                   <div className='testimonials-item-inner'>
                   <div className='client-image'>
                     <img src={item.clientImage} />
