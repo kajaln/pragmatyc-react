@@ -23,7 +23,7 @@ function NavigationBar() {
     <>
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary" style={{ backgroundColor}}>
       <Container>
-      <Navbar.Brand><Link to="/"><img src={imagePaths.logo} alt="Pragmatyc" height="40" /></Link></Navbar.Brand>
+      <Navbar.Brand><Link to="/pragmatyc-react/"><img src={imagePaths.logo} alt="Pragmatyc" height="40" /></Link></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
