@@ -29,6 +29,7 @@ const imagePaths = {
     modernization: require('../img/modernization.jpg'),
     consulting: require('../img/consulting.jpg'),
     development: require('../img/development.jpg'),
+    expertise: require('../img/expertise.jpg')
 
   };
   

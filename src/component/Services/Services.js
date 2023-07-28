@@ -34,7 +34,7 @@ function Services(props) {
    
     ]
   return (
-        <div className='services'>
+        <div className='services pb-10'>
             <Container>
                 {/* <h1>Services</h1> */}
                 <Heading headingData={headingData} />  

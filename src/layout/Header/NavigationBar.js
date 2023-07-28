@@ -35,7 +35,9 @@ function NavigationBar() {
                 <li><Link to="/product-modernization">Product Modernization</Link></li>
               </ul>
             </li>
-            <li  className='display-inline'><Link to="/company">Expertise</Link>
+
+            <li  className='display-inline'><Link to="/expertise">Expertise</Link> </li>
+            <li  className='display-inline'><Link to="/company">Company</Link>
               <ul>
                 <li><Link to="/product-consulting">About Us</Link></li>
                 <li><Link to="/product-development">What Drive Us</Link></li>

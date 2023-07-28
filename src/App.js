@@ -10,6 +10,7 @@ import OurServices from "./Pages/Services/OurServices";
 import ProductConsulting from "./Pages/Services/ProductConsulting";
 import ProductDevelopment from "./Pages/Services/ProductDevelopment";
 import ProductModernization from "./Pages/Services/ProductModernization";
+import Expertise from "./Pages/Expertise/Expertise";
 
 
 
@@ -25,7 +26,8 @@ function App() {
             <Route path="/product-consulting" exact element={<ProductConsulting />} /> 
             <Route path="/product-development" exact element={<ProductDevelopment />} /> 
             <Route path="/product-modernization" exact element={<ProductModernization />} /> 
-            {/* <Route path="/services" exact element={<OurServices />} />  */}
+
+            <Route path="/expertise" exact element={<Expertise />} /> 
 				</Routes>
         <Footer />		
     </div>
