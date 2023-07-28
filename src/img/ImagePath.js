@@ -25,7 +25,10 @@ const imagePaths = {
     ecosystem: require('../img/ecosystem.jpg'),
     ecosystemBg: require('../img/ecosystem-bg.jpg'),
 
-    innerCollaborate:require('../img/inner-collaborate.png')
+    innerCollaborate:require('../img/inner-collaborate.png'),
+    modernization: require('../img/modernization.jpg'),
+    consulting: require('../img/consulting.jpg'),
+    development: require('../img/development.jpg'),
 
   };
   

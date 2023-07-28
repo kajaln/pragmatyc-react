@@ -6,12 +6,20 @@ import Blog from '../../component/Blogs/Blog';
 import ServiceOverviews from './ServiceOverviews';
 import ClientLogo from '../../component/ClientLogos/ClientLogo';
 import InnerCollaborate from '../../layout/Collaborate/InnerCollaborate';
+import PageIntro from '../../layout/InnerPageTop/PageIntro';
+import imagePaths from '../../img/ImagePath';
 
 function ProductModernization(props) {
   const data = {
     introHeading: 'Product Modernization',
     introSubHeading: 'Innovations for existing product to stay relevant and continue winning.',
   };
+
+  const pageIntroData ={
+    pageIntroText: "Digital product business is game one must carefully play to excel especially in today’s heavily user driven environment. We help you to stay modern not only to fight technology obsolescence, but to stay ahead in the game.",
+    pageIntroImage:imagePaths.modernization    
+ };
+
   const serviceData = [
     {  
         id: 1,
@@ -46,6 +54,7 @@ function ProductModernization(props) {
     // </div>
     <>
       <InnerTop data={data}/>
+      <PageIntro pageIntroData={pageIntroData} />
       <ServiceOverviews serviceData={serviceData} />
       <InnerCollaborate />
       <Services />

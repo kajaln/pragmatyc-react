@@ -6,6 +6,8 @@ import Blog from '../../component/Blogs/Blog';
 import ServiceOverviews from './ServiceOverviews';
 import ClientLogo from '../../component/ClientLogos/ClientLogo';
 import InnerCollaborate from '../../layout/Collaborate/InnerCollaborate';
+import PageIntro from '../../layout/InnerPageTop/PageIntro';
+import imagePaths from '../../img/ImagePath';
 
 function ProductConsulting(props) {
   const data = {
@@ -13,6 +15,11 @@ function ProductConsulting(props) {
     introSubHeading: 'Strategies to help you keep up with dynamic business environment.',
   };
 
+  const pageIntroData ={
+    pageIntroText: "Well begun is half done. Sharpen you product planning with right methods and tools with us. Create a strong foundation much required for further development through documenting the whole exercise in standard way with our expert consulting. ",
+    pageIntroImage:imagePaths.consulting    
+  };
+  
   const serviceData = [
     {  
         id: 1,
@@ -48,6 +55,7 @@ function ProductConsulting(props) {
     // </div>
     <>
       <InnerTop data={data}/>
+      <PageIntro pageIntroData={pageIntroData} />
       <ServiceOverviews serviceData={serviceData} />
       <InnerCollaborate />
       <Services />

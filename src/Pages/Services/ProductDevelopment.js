@@ -6,12 +6,20 @@ import Blog from '../../component/Blogs/Blog';
 import ServiceOverviews from './ServiceOverviews';
 import ClientLogo from '../../component/ClientLogos/ClientLogo';
 import InnerCollaborate from '../../layout/Collaborate/InnerCollaborate';
+import PageIntro from '../../layout/InnerPageTop/PageIntro';
+import imagePaths from '../../img/ImagePath';
 
 function ProductDevelopment(props) {
   const data = {
     introHeading: 'Product Development',
     introSubHeading: 'Technology practices to create seamless user experience in agile way.',
 };
+
+const pageIntroData ={
+   pageIntroText: "The journey of a digital product needs to be driven by how market responds. Keeping your product development agile enough to accommodate feedbacks and do it with right expertise to keep it competent is what you can bank us for.",
+   pageIntroImage:imagePaths.development    
+};
+
 const serviceData = [
     {  
         id: 1,
@@ -46,7 +54,9 @@ const serviceData = [
     // </div>
     <>
       <InnerTop data={data}/>
+      <PageIntro pageIntroData={pageIntroData} />
       <ServiceOverviews serviceData={serviceData} />
+      
       <InnerCollaborate />
       <Services />
       <CaseStudies />
