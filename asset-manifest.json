@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/pragmatyc-react/static/css/main.90860429.css",
-    "main.js": "/pragmatyc-react/static/js/main.3dd1fbb2.js",
+    "main.css": "/pragmatyc-react/static/css/main.b65d6cd7.css",
+    "main.js": "/pragmatyc-react/static/js/main.a0e1d02f.js",
     "static/media/home-video.mp4": "/pragmatyc-react/static/media/home-video.aabef7e5049f7ed56df5.mp4",
     "static/media/ecosystem-bg.jpg": "/pragmatyc-react/static/media/ecosystem-bg.b7351672e9e77004831f.jpg",
+    "static/media/inner-collaborate.png": "/pragmatyc-react/static/media/inner-collaborate.85986009da2cef670d50.png",
     "static/media/blog2.png": "/pragmatyc-react/static/media/blog2.b4ec6abd988eb20eca97.png",
     "static/media/blog3.png": "/pragmatyc-react/static/media/blog3.0c20b7065530acd9708c.png",
     "static/media/Helped-HR-consulting.jpg": "/pragmatyc-react/static/media/Helped-HR-consulting.26f5e9ba652864eed7d0.jpg",
@@ -24,11 +25,11 @@
     "static/media/slick.ttf": "/pragmatyc-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/pragmatyc-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/pragmatyc-react/index.html",
-    "main.90860429.css.map": "/pragmatyc-react/static/css/main.90860429.css.map",
-    "main.3dd1fbb2.js.map": "/pragmatyc-react/static/js/main.3dd1fbb2.js.map"
+    "main.b65d6cd7.css.map": "/pragmatyc-react/static/css/main.b65d6cd7.css.map",
+    "main.a0e1d02f.js.map": "/pragmatyc-react/static/js/main.a0e1d02f.js.map"
   },
   "entrypoints": [
-    "static/css/main.90860429.css",
-    "static/js/main.3dd1fbb2.js"
+    "static/css/main.b65d6cd7.css",
+    "static/js/main.a0e1d02f.js"
   ]
 }
