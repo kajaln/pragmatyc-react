@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pragmatyc-react/static/css/main.b65d6cd7.css",
-    "main.js": "/pragmatyc-react/static/js/main.b5b300f4.js",
+    "main.js": "/pragmatyc-react/static/js/main.a0e1d02f.js",
     "static/media/home-video.mp4": "/pragmatyc-react/static/media/home-video.aabef7e5049f7ed56df5.mp4",
     "static/media/ecosystem-bg.jpg": "/pragmatyc-react/static/media/ecosystem-bg.b7351672e9e77004831f.jpg",
     "static/media/inner-collaborate.png": "/pragmatyc-react/static/media/inner-collaborate.85986009da2cef670d50.png",
@@ -26,10 +26,10 @@
     "static/media/slick.woff": "/pragmatyc-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/pragmatyc-react/index.html",
     "main.b65d6cd7.css.map": "/pragmatyc-react/static/css/main.b65d6cd7.css.map",
-    "main.b5b300f4.js.map": "/pragmatyc-react/static/js/main.b5b300f4.js.map"
+    "main.a0e1d02f.js.map": "/pragmatyc-react/static/js/main.a0e1d02f.js.map"
   },
   "entrypoints": [
     "static/css/main.b65d6cd7.css",
-    "static/js/main.b5b300f4.js"
+    "static/js/main.a0e1d02f.js"
   ]
 }
