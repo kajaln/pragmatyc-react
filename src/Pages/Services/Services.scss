@@ -1,0 +1,14 @@
+@import '../../styles/style.scss';
+
+.ServiceOverviews{
+    padding: $padding-large 0;
+    .card-body{height:240px;text-align: left;
+       
+    &:hover{
+        background-color: $secondary-color;
+        color: #fff;
+        transition: .5s;
+    }}
+    .card{margin: 10px 0; border-radius: 5px;
+        overflow: hidden;}
+}

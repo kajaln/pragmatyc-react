@@ -36,6 +36,7 @@ function Services(props) {
   return (
         <div className='services'>
             <Container>
+                {/* <h1>Services</h1> */}
                 <Heading headingData={headingData} />  
                 <Row>
                     {ServiceItems.map((item) => {

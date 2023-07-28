@@ -52,7 +52,7 @@ function ClientLogo() {
     ]
     const settings = {
         dots: false, 
-        arrow: false,
+        arrows: false,
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,

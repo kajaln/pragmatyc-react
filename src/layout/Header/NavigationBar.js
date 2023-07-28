@@ -28,8 +28,20 @@ function NavigationBar() {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <ul  className='flex'>
-            <li  className='display-inline'><Link to="/services">Services</Link></li>
-            <li  className='display-inline'><Link to="/company">Expertise</Link></li>
+            <li  className='display-inline'><Link to="/services">Services</Link>
+              <ul>
+                <li><Link to="/product-consulting">Product Consulting</Link></li>
+                <li><Link to="/product-development">Product Development</Link></li>
+                <li><Link to="/product-modernization">Product Modernization</Link></li>
+              </ul>
+            </li>
+            <li  className='display-inline'><Link to="/company">Expertise</Link>
+              <ul>
+                <li><Link to="/product-consulting">About Us</Link></li>
+                <li><Link to="/product-development">What Drive Us</Link></li>
+                <li><Link to="/product-modernization">Career</Link></li>
+              </ul>
+            </li>
             <li  className='display-inline'><Link to="/success-stories">Success Stories</Link></li>
             <li  className='display-inline'><Link to="/insights">Insights</Link></li>
             <li  className='display-inline'><Link to="/contact">Let's Talk!</Link></li>

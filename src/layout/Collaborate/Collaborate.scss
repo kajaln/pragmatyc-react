@@ -1,0 +1,13 @@
+@import '../../styles/style.scss';
+
+.inner-collaborate{
+    height: 300px;
+    position: relative;
+    h2{color: #fff;}
+    svg{display: inline-block;margin-left: 15px;}
+    a{color: #fff;text-decoration: none;
+    &:hover{
+        color:#fff
+    }
+    }
+}

@@ -23,6 +23,9 @@ const imagePaths = {
     clideg: require('../img/client-logo/clideg.png'),
 
     ecosystem: require('../img/ecosystem.jpg'),
+    ecosystemBg: require('../img/ecosystem-bg.jpg'),
+
+    innerCollaborate:require('../img/inner-collaborate.png')
 
   };
   
